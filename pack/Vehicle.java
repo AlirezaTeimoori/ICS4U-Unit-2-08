@@ -10,7 +10,6 @@
 //-- vehicle and some child classes    --
 //---------------------------------------
 
-
 import java.util.*;
 
 public class Vehicle {
@@ -131,9 +130,9 @@ public class Vehicle {
         this.speed = scanner.nextInt();
         System.out.println("Enter vehicle max speed: ");
         this.maxSpeed = scanner.nextInt();
-    } 
 
-    //
+    }
+
     public String toString() {
         
         // OUTPUT -- Print all the fields in an organized way: 
@@ -145,6 +144,7 @@ public class Vehicle {
 
         // You have to return a string with thie function otherwise it won't let you to override it.
         return "";
+    
     }
 
     // main() function:
@@ -192,7 +192,7 @@ public class Vehicle {
             }
 
         }
-        
+
         scanner.close();
     }
 }
